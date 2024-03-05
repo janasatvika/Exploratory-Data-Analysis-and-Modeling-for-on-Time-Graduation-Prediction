@@ -87,7 +87,7 @@
   </tr>
   <tr>
     <td>IPS 1</td>
-    <td>float</td>
+    <td>float64</td>
     <td>Grade Point Average in the 1st semester</td>
   </tr>
   <tr>
@@ -109,7 +109,7 @@
   <tr>
     <td>Retake total</td>
     <td>int64</td>
-    <td>Grades are repeated in the first four semesters.</td>
+    <td>Grades are repeated in the first four semesters</td>
   </tr>
   <tr>
     <td>
@@ -117,7 +117,7 @@
       Graduation status
     </td>
     <td>object</td>
-    <td>Dependent attribute (Class data)</td>
+    <td>Dependent attribute or data class, (values: <b>on-Time</b> and <b>Late</b>)</td>
   </tr>
 </table>
 
@@ -179,16 +179,16 @@
     <table>
       <tr>
         <td></td>
-        <td>Predicted 0</td>
-        <td>Predicted 1</td>
+        <td><b>Predicted 0</b></td>
+        <td><b>Predicted 1</b></td>
       </tr>
       <tr>
-        <td>Actual 0</td>
+        <td><b>Actual 0</b></td>
         <td>80</td>
         <td>4</td>
       </tr>
       <tr>
-        <td>Actual 1</td>
+        <td><b>Actual 1</b></td>
         <td>5</td>
         <td>2</td>
       </tr>
